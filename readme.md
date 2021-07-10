@@ -1,5 +1,7 @@
 # 📷 网页截图 | 网页快照 | 长截图
 
+> 🚩 后续补充：本地运行就好，不建议部署到服务器，太吃性能了，服务器容易死机
+
 使用 `puppeteer` 无头浏览器获取屏幕截图(长图根据 `document.body.clientHeight` 计算)
 
 使用 `puppeteer` 将下载 Chromium 的 bundle 版本，根据操作系统的不同，该版本大约 180 MB 至 300 MB
