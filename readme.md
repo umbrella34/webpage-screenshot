@@ -46,4 +46,4 @@ const browser = await puppeteer.launch({args: ['--no-sandbox', '--disable-setuid
 
 原来centos系统默认不支持中文字体的，于是我去学了下Linux的字体安装
 
-点击阅读：[Linux中文字体安装](./Linux中文字体安装.md)
+点击阅读：[Linux中文字体安装](https://ux34.cn/pages/28f903/)
