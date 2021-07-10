@@ -6,7 +6,7 @@ const screenSize = require('./config/screenSize') // 常用屏幕尺寸
 async function screenshot(url, sizeType){
   try {
     viewport = screenSize[sizeType] || screenSize.default // 获取截图的屏幕尺寸
-    const browser = await puppeteer.launch({headless:true})
+    const browser = await puppeteer.launch({args: ['--no-sandbox', '--disable-setuid-sandbox']})
     const page = await browser.newPage()
     await page.goto(url)
     await page.setViewport(viewport) // { width: 1366, height: 768 }
